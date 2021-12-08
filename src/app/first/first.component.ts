@@ -8,13 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class FirstComponent implements OnInit {
 
 
-  Hero :any[] = [{id:11 , name: "Kunali"},
-  {id: 12 , name: "Prachu"},
-  {id :13 , name: "Tanu"},
-  {id :14 , name: "Linu"},
-  {id :15 , name: "Shiu"},
-  {id :16 , name: "Parth"} 
-  ]
+  
   isShow: boolean | undefined;
 
   
@@ -23,7 +17,5 @@ export class FirstComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showdata(){
-    this.isShow=true;
-  }
+ 
 }

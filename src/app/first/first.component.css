@@ -1,0 +1,17 @@
+mat-card{
+    background-color: pink;
+    height :600px;
+    width:500px;
+    text-align : center;
+   margin-left: 550px;
+   color: black;
+}
+
+.button{
+color: black;
+height: auto;
+width: 100px;
+background-color: brown;
+text-align: center;
+margin-left: 200px;
+}
